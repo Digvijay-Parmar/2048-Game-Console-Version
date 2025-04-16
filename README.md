@@ -42,7 +42,15 @@ It's a type of “sliding block puzzle” — think Threes!, on which 2048 is ba
   - Colored text
   - Cursor movement
   - Delays for animations
-  
+  - 
+  ### 🔹 `Game.h` - Game Class Declaration
+
+- Contains the **declaration** of the core `Game` class.
+- All members are `static`, meaning the game runs without creating instances of the class.
+- Acts as the **controller** of the game — handling logic, UI, input, and game state.
+- Includes several key libraries:
+  - `<fstream>`, `<string>`, `<iomanip>`, `<time.h>` — for file I/O, formatting, and randomness.
+  - Custom headers: `Utilities.h`, `Debugger.h`, and `Player.h`.
 
 **📘 What We Learned**
 
