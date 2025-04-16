@@ -42,15 +42,22 @@ It's a type of “sliding block puzzle” — think Threes!, on which 2048 is ba
   - Colored text
   - Cursor movement
   - Delays for animations
-  - 
-  ### 🔹 `Game.h` - Game Class Declaration
 
-- Contains the **declaration** of the core `Game` class.
-- All members are `static`, meaning the game runs without creating instances of the class.
-- Acts as the **controller** of the game — handling logic, UI, input, and game state.
-- Includes several key libraries:
+ 
+### 🔹 `game.cpp` - Main file
+- Contains all the important parts of the game.
+- - Includes several key libraries:
   - `<fstream>`, `<string>`, `<iomanip>`, `<time.h>` — for file I/O, formatting, and randomness.
   - Custom headers: `Utilities.h`, `Debugger.h`, and `Player.h`.
+- Handles the game loop, including starting the game, drawing the board, and managing user inputs.
+- Core logic of the game resides here, making it the heart of the project.
+- Responsible for game state management, ensuring that the game progresses correctly from start to finish.
+- Controls the spawning of new tiles and updating of the board state after every move.
+- Handles the scoring system, updating the score after each successful move.
+- Includes functions to check for game over conditions or when the player wins.
+- Integrates with other components like input handling, display rendering, and game logic.
+
+
 
 **📘 What We Learned**
 
