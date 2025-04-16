@@ -57,7 +57,32 @@ It's a type of “sliding block puzzle” — think Threes!, on which 2048 is ba
 - Includes functions to check for game over conditions or when the player wins.
 - Integrates with other components like input handling, display rendering, and game logic.
 
+### 🔹 `player.cpp` – Implementation File
 
+- Implements the methods declared in `player.h`.
+- Handles initialization and manipulation of player data.
+
+#### ✅ Key Functionalities:
+- **Constructor (`Player()`):**
+  - Sets default name to `"NA"` and score to `0`.
+
+- **Destructor (`~Player()`):**
+  - Currently empty but declared for future use and proper cleanup.
+
+- **Score Methods:**
+  - `getPlayerScore()`: Returns current score.
+  - `setPlayerScore()`: Sets a new score.
+  - `addToPlayerScore()`: Increments score by the given value.
+
+- **Name Methods:**
+  - `getPlayerName()`: Returns a pointer to the player name.
+  - `setPlayerName()`: Copies the given name to `playerName`.
+
+---
+
+### 📝 Summary
+
+The `Player` class acts as a simple data model for players. It encapsulates the player's name and score, provides easy access and modification methods, and plays a key role in tracking player progress during the game.
 
 **📘 What We Learned**
 
