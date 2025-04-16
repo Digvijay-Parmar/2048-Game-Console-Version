@@ -31,6 +31,19 @@ It's a type of “sliding block puzzle” — think Threes!, on which 2048 is ba
 |            Source Code            |            Download Executable             |
 
 
+### 🔹 `main.cpp` - Entry Point
+
+- Acts as the starting point of the 2048 game.
+- Includes the `Game.h` header which contains the `Game` class.
+- Calls the static method `Game::startGame()` to launch the game.
+- No object instantiation is needed as all methods in `Game` are static.
+- Uses `EXIT_SUCCESS` to return 0 on successful execution.
+- Relies on the `rlutil.h` library for enhanced console UI features like:
+  - Colored text
+  - Cursor movement
+  - Delays for animations
+  
+
 **📘 What We Learned**
 
 -  Applied **Object-Oriented Programming (OOP)** principles like encapsulation, inheritance, and abstraction.
