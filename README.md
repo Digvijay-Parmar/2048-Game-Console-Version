@@ -107,7 +107,29 @@ The `Debugger` class acts as a centralized error-handling mechanism to:
 - Improve code maintainability and debugging support.
 
 Useful during development and runtime to track down critical failures or misbehavior in game logic or utilities.
-**📘 What We Learned**
+
+### 🔹 `Utilities.cpp` – Implementation File
+
+Contains definitions of the utility methods declared in the header.
+
+#### ✅ Key Functionalities:
+
+- **print(...)**  
+  - Simulates animated typing by printing each character with a delay.
+  - Changes the text color using `rlutil::setColor`.
+  - Accepts optional parameters:
+    - `lineEnd`: if `true`, ends the line after the message.
+    - `color`: sets the text color.
+    - `delay`: delay in milliseconds between characters.
+  - Resets to the default text color after printing.
+
+- **getRandomNumber(leftLimit, rightLimit)**  
+  - Returns a pseudo-random integer in the specified range.
+  - Uses `rand()` with proper bounds calculation.
+
+---
+
+**📘 What have We Learned**
 
 -  Applied **Object-Oriented Programming (OOP)** principles like encapsulation, inheritance, and abstraction.
 - 🗃 Used **file handling** for saving high scores or game states.
