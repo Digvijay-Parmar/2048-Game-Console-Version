@@ -156,4 +156,4 @@ Contains definitions of the utility methods declared in the header.
 ---
 
 **Conclusion**
-- That is all from our side hope you like this.
+- That is all about end-sem project, we have learnt many things from this project as metion above and not to forget we have learn much abot Git and Github during All this course. So Thank's a lot for giving these types of unique projects and hope you like this one from our side.
