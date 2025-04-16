@@ -1,6 +1,6 @@
 # End-Sem project: 2048
 
-## Group Name: "SKDk"
+## Group Name: "SKDK"
   - PARMAR DIGVIJAY :- 202401444
   - SHLOK GOHEL :- 202401476
   - KARAN SHUKLA :-202401479
@@ -128,6 +128,22 @@ Contains definitions of the utility methods declared in the header.
   - Uses `rand()` with proper bounds calculation.
 
 ---
+# rlutil.h – Console Utility Library for C++
+
+`rlutil.h` is a lightweight, header-only C++ utility library for building colorful, interactive terminal applications. It supports basic console operations like screen clearing, cursor movement, color control, and non-blocking input—perfect for text-based games like 2048 or Pacman.
+
+---
+
+## 🚀 Features
+
+- ✅ **Cross-platform**: Works on Windows, Linux, and macOS.
+- 🎨 **Colorful output**: Easily change text and background colors.
+- 🖱 **Cursor control**: Move the cursor, hide/show it.
+- 🧹 **Screen manipulation**: Clear or modify console display.
+- ⌨️ **Keyboard input**: Detect key presses (supports arrow keys, etc.)
+
+---
+
 
 **📘 What have We Learned**
 
