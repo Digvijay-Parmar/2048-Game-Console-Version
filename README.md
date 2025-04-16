@@ -84,6 +84,29 @@ It's a type of “sliding block puzzle” — think Threes!, on which 2048 is ba
 
 The `Player` class acts as a simple data model for players. It encapsulates the player's name and score, provides easy access and modification methods, and plays a key role in tracking player progress during the game.
 
+
+### 🔹 `Debugger.cpp` – Implementation File
+
+- Provides the definition for the `handleException` method.
+
+#### ✅ Key Functionalities:
+- **handleException():**
+  - Prints an error message using `std::cerr`.
+  - If `toExit` is `true`:
+    - Clears the console screen.
+    - Displays termination message using `Utilities::print()`.
+    - Exits the program with failure status (`exit(EXIT_FAILURE)`).
+
+---
+
+### 📝 Summary
+
+The `Debugger` class acts as a centralized error-handling mechanism to:
+- Catch and display unexpected errors.
+- Optionally terminate the program safely.
+- Improve code maintainability and debugging support.
+
+Useful during development and runtime to track down critical failures or misbehavior in game logic or utilities.
 **📘 What We Learned**
 
 -  Applied **Object-Oriented Programming (OOP)** principles like encapsulation, inheritance, and abstraction.
